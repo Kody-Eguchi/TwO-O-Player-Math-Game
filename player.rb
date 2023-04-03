@@ -1,6 +1,8 @@
 
 class Player
-  attr_accessor :name :score
+
+  attr_accessor :name, :score
+
   def initialize(name)
     @name = name
     @score = 3
@@ -13,6 +15,7 @@ class Player
   def reset_score
     @score = 3
   end
+
 end
 
 
